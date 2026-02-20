@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    
+}
+/* div{
+    border: 2px solid black;
+} */
+
+ 
+.main{
+    border: 2px solid black;
+
+   height: 500px;
+   width: 500px;
+   display: grid;
+   grid-template-rows: 2fr 1.5fr 1fr 1fr 1fr 2fr;
+   grid-template-columns: 1fr 5fr 1fr;
+   justify-content: space-evenly;
+   
+   padding: 5%;
+   gap: 3%;
+   border-radius: 10px;
+}
+
+.b{
+     border: 2px solid black;
+     border-radius: 12px;
+}
+.box1{
+   grid-area: 1/2/2/3;
+   
+}
+.box2{
+    grid-area: 2/2/3/3;
+}
+.box3{
+    grid-area: 3/2/4/3;
+}
+.box4{
+    grid-area: 4/2/5/3;
+}
+.box5{
+    grid-area: 5/2/6/3;
+}
+.box6{
+    grid-area: 6/1/7/4;
+}
+button{
+    height: 25%;
+    width: 25%;
+}
+.b{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+#in{
+    height: 10%;
+    width: 70%;
+    padding: 10%;
+}
+
+
+
+

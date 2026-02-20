@@ -1,0 +1,14 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.pw{
+    display: flex;
+    gap: 0;
+}
+
+.ch{
+    width: 20px;
+     height: 20px;
+}
