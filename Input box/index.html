@@ -5,24 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="container">
-        <form action="" action="./sub.html">
+        
             <div class="main">
         <div class="box1 b">
-            <textarea name="text" id="text" rows="6" cols="23" placeholder="Enter The Text"></textarea>
+           
+            <textarea name="text" id="text" rows="6" cols="23" 
+            placeholder="Enter The Text" ></textarea>
+           
             <button type="submit" id="sub">Submit</button>
         </div>
+
         <div class="box2 b">
-            <input id ="in" type="text">
+            <input id ="in" type="text" placeholder="Your Text">
         </div>
-        <div class="box3 b"></div>
-        <div class="box4 b"></div>
-        <div class="box5 b"></div>
-        <div class="box6 b"></div>
+        <div class="box3 b">
+            <p>Font Size :</p>
+             <span>
+            <select name="font" id="font">
+                <option value="10px">10px</option>
+                <option value="20px">20px</option>
+                <option value="30px">30px</option>
+            </select>
+            </span>
         </div>
-         </form>
+        <div class="box4 b">
+         <div class="up"><P ><U class="underline">Underline</U></P></div>
+         <div class="bold"><P><B >Bold</B></P></div>
+         <div class="italic"> <p><i >italic</i></p></div>
+        </div>
+        <div class="box5 b">
+            <div class="lefta"><i class="fa-solid fa-align-left"></i></div>
+         <div class="justifya"><i class="fa-solid fa-align-justify"></i></div>
+         <div ><i class="fa-solid fa-align-right"></i></div>
+        </div>
+        <div class="box6 b">
+            <div>
+                <input class="bg" type="color"><span><b>BackGround</b></span>
+           </div>
+           
+            <div>
+                <input type="color"><span><b>Font Color</b></span>
+            </div>
+        </div>
+        </div>
+        
 
 
     </div>
