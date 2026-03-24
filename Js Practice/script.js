@@ -179,3 +179,49 @@ maths(1,2,add1)
 maths(1,2,multi)
 
 //object
+//filter students by grade
+const student=[
+    {name:"a",grade:"A"} ,
+    {name:"b",grade:"B"} ,
+    {name:"c",grade:"A"} 
+]
+let stu=student.filter((m)=>{
+    return m.grade==='A';
+})
+console.log(stu)
+
+//destrecture
+
+const per2={fname:"a",rage:55,city:"gurugram"}
+
+let{fname,rage,city} = per2
+console.log(fname)
+console.log(age)
+console.log(city)
+
+//mapping
+const number=[1,2,3]
+let num2=number.map((double)=>{
+    return double*2
+})
+console.log(num2)
+
+console.log("------asyc-----")
+
+console.log("task1")
+let a2=setTimeout(()=>{
+     console.log("task 2")
+},4000)
+console.log("task3")
+
+let btn1=document.querySelector(".btn1")
+function time(){
+    clearTimeout(a2)
+}
+
+btn1.addEventListener("click",time)
+
+
+
+
+

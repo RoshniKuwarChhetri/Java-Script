@@ -1,0 +1,8 @@
+body.dark{
+    background-color: black;
+    color: aliceblue;
+}
+
+body{
+    transition: all 0.3s linear 0.2s;
+}
